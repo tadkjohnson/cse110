@@ -1,6 +1,7 @@
 # added names, location, and friends to personalize it. instead of leaving it some random "someone someplace didn't happen event"
 
 
+
 print("Please enter the following information:")
 first_name = input("what is your first name? ")
 last_name = input("what is your last name? ")
