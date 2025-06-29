@@ -10,7 +10,7 @@ title = input ("What is your job title? ")
 idn = input ("What is your ID Number? ")
 phone_number = input ("What is your phone Number? ")
 
-# print()
+# print() or ("\n")
 print("The ID Card is:")
 print("\n")
 print("-" * 50)
@@ -21,4 +21,6 @@ print()
 print(f"{email.lower()}")
 print(f"{phone_number}")
 print("-" * 50)
+
+
 
