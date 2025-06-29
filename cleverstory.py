@@ -20,11 +20,11 @@ print("A clever story")
 print("\n")
 print("-" * 50)
 story = f"""When I, {first_name.capitalize()} {last_name.capitalize()}, returned to {location} last weekend to do some {task}.  I called {friend_name.capitalize()} in hopes to {activity}. 
-    But instead ended up telling her the following life experience."""
+    But instead ended up telling {friend_name.capitalize()} the following life experience."""
 print(story)
 print("\n")
 story = f"""The other day, I was really in trouble. It all started when I saw a very
-    {adjective.lower()}, {animal.capitalize()} {verb} down the hallway. {exclamation.title()}! I yelled. But all
+    {adjective.lower()} {animal.lower()} {verb} down the hallway. {exclamation.title()}! I yelled. But all
     I could think to do was to {verb2} over and over. Miraculously,
     that caused it to stop, but not before it tried to {verb3} 
     right in front of my family."""
