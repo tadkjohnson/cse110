@@ -1,8 +1,8 @@
 import math
 
-#added senior citizens cost
+#added senior citizens discount
 #added several tip suggestion amounts
-#added drink costs
+#added drink costs that vary for person
 
 cost_child = float(input("what is the price of the child meal? $"))
 cost_adult = float(input("what is the price of the adult meal? $"))
