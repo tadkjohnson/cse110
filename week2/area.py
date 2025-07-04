@@ -1,4 +1,4 @@
-    # radius = float(input ("what is the radius? "))
+import math
 
 
  
@@ -10,7 +10,7 @@ print(f"the area of the square is: {sq_area:.3f}")
 print()
 print("Get the area of a circle")
 circle = float(input("what is a radius of the circle? "))
-cir_area = circle * 3.14
+cir_area = math.pi * circle **2
 print(f"the area of the circle is: {cir_area:.3f}")
 print()
 print("Get the area of a rectangle")
