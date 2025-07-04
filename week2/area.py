@@ -13,10 +13,11 @@ cir_area = circle * 3.14
 print(f"the area of the circle is: {cir_area:.3f}")
 print()
 print("Get the area of a rectangle")
-rec_side1 = float(input("what is the first sides length of the rectangle? "))
-rec_side2 = float(input("what is the second sides length of the rectangle? "))
-rec_area = rec_side1 * rec_side2
+rec_length = float(input("what is the length of the rectangle? "))
+rec_width = float(input("what is the width of the rectangle? "))
+rec_area = rec_length * rec_width
 print(f"the area of the rectangle is: {rec_area:.3f}")
+# print(f"the area of the rectangle is {rec_length * rec_width}")
 
 
 
