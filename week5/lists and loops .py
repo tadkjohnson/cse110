@@ -24,3 +24,11 @@
 
 # for book in books:
 #     print(book)
+
+
+
+line = "     text"
+
+line.strip()
+
+print(line)

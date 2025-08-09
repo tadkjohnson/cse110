@@ -51,7 +51,7 @@ if user_year_list:
     avg_life = total / len(user_year_list)
     max_expect = max(user_year_list)
     min_expect = min(user_year_list)
-    # print(f"{max_expect} {min_expect}")
+    print(f"{max_expect} {min_expect}")
     # max_place = [entity]
     # min_place = [entity]
 
